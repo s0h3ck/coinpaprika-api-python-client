@@ -7,7 +7,7 @@ from coinpaprika.exceptions import CoinpaprikaRequestException
 
 client = Coinpaprika.Client()
 
-def test_invalid_json():
+def test_invalid_request():
 
     with pytest.raises(CoinpaprikaRequestException):
         with requests_mock.mock() as m:

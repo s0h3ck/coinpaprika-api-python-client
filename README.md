@@ -25,5 +25,13 @@ client = Coinpaprika.Client()
 ## Examples
 Check out the [./examples](./examples) directory.
 
+## Tests
+
+```test
+pip install -r test_requirements.txt
+
+pytest tests/test_api_request.py
+```
+
 ## License
 CoinpaprikaAPI is available under the MIT license. See the LICENSE file for more info.

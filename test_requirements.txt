@@ -11,4 +11,4 @@ pytest==4.4.0
 requests==2.21.0
 requests-mock==1.5.2
 six==1.12.0
-urllib3==1.24.2
+urllib3==1.26.5
